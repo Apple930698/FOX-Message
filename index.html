@@ -1,105 +1,105 @@
-<!DOCTYPE html>
-<html lang="zh-CN" data-theme="vermilion">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FOX Message — 企业级消息、协作与安全平台</title>
-<meta name="description" content="FOX Message 将跨渠道消息、AI 智能协作与企业级隐私安全能力，收进一个清晰、可靠的工作入口。">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
-<script>
-  document.documentElement.classList.add('js');
-  try{
-    var t = localStorage.getItem('fox-theme');
-    if(t) document.documentElement.setAttribute('data-theme', t);
-  }catch(e){}
-</script>
-<style>
+<!不透明性
+<变量 不透明性="zh-CN" data-theme="vermilion">
+<S>
+<变量 高度="UTF-8">
+<S 变量="viewport" 变量=边缘>
+<汽车 1>福克斯消息-企业级消息，大v</衬垫>
+<变量 味精选择 1="description" 变量背景=屈伸边界 中心背景(12>
+<小卖部变量 包="preconnect" 变量 边缘="https://fonts.googleapis.com">
+<汽车 屈伸边缘 基线请将下面的文本准确无误地翻译成="preconnect" 衬垫="https://fonts.gstatic.com" 变量>
+<显示 =狐狸轮廓线 变量固体 小卖部 嗯变量 文字标志小卖部 网格重复="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" 神父="stylesheet">
+<差距.>
+文档。你你
+尝试{
+变量 T=you you
+如果（T）
+}抓住（英）{}
+</获取项目>
+<=狐狸轮廓线 变量固体 小卖部 嗯变量 文字标志小卖部>
 /* ================= TOKENS ================= */
-:root{
-  --canvas:#F2EFE8; --white:#FFFFFF; --paper:#E8E3D9; --dark:#12161B;
-  --ink:#12161B; --muted:#6B6F72; --line:#D6D1C6;
-  --accent:#E2482F; --accent-dark:#B3321F; --accent-soft:rgba(226,72,47,.12);
-  --cobalt:#2E4BD8; --leaf:#2F7A5B; --amber:#D2A23C;
-  --sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
-  --latin:"Inter","Helvetica Neue",Arial,sans-serif;
-  --pad:48px; --max:1440px; --gap:24px;
+:根{
+-帆布：#F2you you FEFEFEFEFEFE8；-#FFFFFF；-：#E8E3D9；-：#12161B；
+-油墨：#12161B；-：#6 B 6 F 72；-：#D6 D1 C6；
+-口音：#E2482F；-you mayoto-：#B3321F；-you mayoto-：rgba(226,72,47，.12)；
+-钴：#2E4BD 8；-您：#2 F 7 A5 B；-：#D 2 A23 C；
+-Sans：[Noto Sans SC]、[平方 SC]、[com]、[Sans-serif]；
+-拉丁语：“internet”，“Helvetica Neue”
+-垫：48小卖部；最大：1440亿斤；-缺口：24斤；
   --ease-out:cubic-bezier(0.16,1,0.3,1);
   --ease-io:cubic-bezier(0.65,0,0.35,1);
 }
 [data-theme="indigo"]{ --accent:#2E4BD8; --accent-dark:#1E35A8; --accent-soft:rgba(46,75,216,.12); }
 [data-theme="pine"]{ --accent:#1F7A5C; --accent-dark:#155B44; --accent-soft:rgba(31,122,92,.13); }
 
-*,*::before,*::after{box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{
-  margin:0;background:var(--canvas);color:var(--ink);
-  font-family:var(--sans);font-size:16px;line-height:1.7;
-  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+*，*：：早于，*：：：{box-sizing:border-box；}
+超文本标记语言{滚动-行为：
+身体{
+边缘:0；you you:（-you you:（））；
+字体-------------------------------------------
+字体-you you；
 }
-img{display:block;max-width:100%;}
-a{color:inherit;text-decoration:none;}
-button{font:inherit;color:inherit;border:0;background:none;cursor:pointer;}
-h1,h2,h3,h4,p{margin:0;}
-ul{margin:0;padding:0;list-style:none;}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
-::selection{background:var(--accent);color:#fff;}
+图片{：市长；你要我-：100％；}
+一个{：你：你；--你：}
+按钮{字体:继承;颜色:继承;边界:0;背景:没有一个;光标:指针;}
+h1，h2，h3，h4，P{边缘：0；}
+请将下面的文本准确无误地翻译成{：you you；：0；you you；}
+：焦点-可见{轮廓线：2个大世界（-口音）；轮廓-偏移量：2个大世界；}
+选择{you you：（-accent）；：#fff；}
 
-.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad);}
-.grid12{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--gap);}
-.eyebrow{font-family:var(--latin);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;line-height:1.2;}
-.label{font-family:var(--latin);font-size:12px;font-weight:600;letter-spacing:.04em;}
-.num{font-family:var(--latin);font-variant-numeric:tabular-nums;}
-.muted{color:var(--muted);}
-.sq{display:inline-block;width:6px;height:6px;background:var(--accent);vertical-align:2px;margin-right:8px;}
-.section-head{max-width:920px;margin-bottom:60px;}
-.section-head h2{
-  font-size:clamp(34px,4.2vw,56px);font-weight:900;line-height:1.08;
-  letter-spacing:-.045em;margin:18px 0 20px;
+包{max-width:you：（-max）；：0 you you；：0 you（-pad）；}
+网格 12{佑茂玉-（12,1）；（-gap）；}
+眉毛{字体-家族：（-拉丁文）；字体大小：11万；字体-重量：700；字母-间距：. 12；文本-变换：；行-高度：1.2；}
+标签{字体-家族：（-拉丁文）；字体大小：12万；字体-重量：600；字母-间距：. 04；}
+数字{-you you：：mayor-variant-numic:table-nums；}
+柔和的{：you you（-mayou）；}
+平方{我的直列-块；我的：6个我的；：（-口音）；垂直-对齐：2；边距-右：8；}
+<!“fox-theme”）变量（briomayoto
+超文本标记语言
+语言
+过渡
 }
-.section-head p{font-size:18px;line-height:1.72;color:var(--muted);max-width:36em;}
+改变
 
-/* ================= BUTTONS ================= */
-.btn{
-  display:inline-flex;align-items:center;justify-content:center;gap:10px;
-  padding:14px 20px;border-radius:2px;font-family:var(--latin);
-  font-size:13px;font-weight:600;letter-spacing:.02em;
-  transition:background .16s ease-out,color .16s ease-out,border-color .16s ease-out;
-  min-height:44px;
+S
+:
+变量
+不透明性
+S
+变量
+高度
 }
-.btn .ic{transition:transform .16s ease-out;}
-.btn:hover .ic{transform:translateX(4px);}
-.btn-primary{background:var(--accent);color:#fff;}
-.btn-primary:hover{background:var(--accent-dark);}
-.btn-ghost{border:1px solid var(--ink);color:var(--ink);padding:12px 18px;}
-.btn-ghost:hover{background:var(--ink);color:var(--canvas);}
-.btn-ghost-inv{border:1px solid rgba(242,239,232,.5);color:var(--canvas);padding:12px 18px;}
-.btn-ghost-inv:hover{background:var(--canvas);color:var(--ink);}
-.btn-block{width:100%;}
-.tlink{
-  display:inline-flex;align-items:center;gap:8px;position:relative;
-  font-family:var(--latin);font-size:13px;font-weight:600;padding:6px 0;
+S
+变量
+福克斯消息-我喜欢
+变量
+[
+[
+*,*::
+边缘
+汽车
+衬垫
+变量
+高度颜色
 }
-.tlink::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:currentColor;transition:width .18s ease-out;}
-.tlink:hover::after{width:100%;}
-.tlink:hover .ic{transform:translateX(4px);}
-.tlink .ic{transition:transform .16s ease-out;}
+显示继承
+屈伸边界
+中心背景(12
+差距没有一个
 
-/* ================= HEADER ================= */
-.header{
-  position:fixed;inset:0 0 auto 0;z-index:200;height:88px;
-  background:rgba(242,239,232,.93);backdrop-filter:blur(12px);
-  -webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line);
-  transition:height .35s var(--ease-out);
+小卖部光标
+文字标志指针
+:
+::
+  -webkit-backdrop-filter:<setAttribute（[数据-theme]，）；（）；P 大写。我想给你的是12161（226,72,47.显示="UTF-8"><!<!DOCTYPE html>字体-------------------------------------------<字母表的第六个字母 72；-：#D6=字符集 元 名字=内容"width=device-width, initial-scale=1"<标题标题元
+  [Noto-Sans：[Noto 无 SC]、[平方 . SC]、[com]、[无衬线]； 无-com：“internet”，“Helvetica” Neue” 6 SC]，[平方-愿你愿为；愿为：1440；-愿为：24； =“靛蓝”]{巨无遗--巨额财产来源不明：#2E4BD 8；-accent-dark:#1E35A8；-accent-soft:rgba(46,75,216，. 12)；}SC]，[com]，[无衬线]；-you GoldmAn：“internet”，“Helvetica”[data-theme=“pine”]{-accent:#1 F7 A5 C；-accent-dark:#155 <名字#F 2 you 变量=变量你你；}*，*：you，*：：{box-sizings:border-box；}you 美柚 govoldes-box；}>you you:（）；>you you:（）="preconnect" 字体-you you；>差距没有一个<{滚动-行为：：焦点-可见{轮廓线：2个大世界（-口音）；轮廓-偏移量：2个大世界；} 过渡身体{你 你：（-you willow）；：#fff；} 改变******************1 UTF（Unicode）-8 你 你：0；你 你：你="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" 你：（）；=你
 }
-.js .header{transform:translateY(-24px);opacity:0;}
-.header.ready{transform:translateY(0);opacity:1;transition:transform .7s var(--ease-out),opacity .7s var(--ease-out),height .35s var(--ease-out);}
-.header-inner{max-width:var(--max);margin:0 auto;padding:0 var(--pad);height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px;}
-.wordmark{display:flex;align-items:baseline;gap:8px;}
-.wordmark .fox{font-family:var(--latin);font-size:21px;font-weight:700;letter-spacing:-.03em;}
-.wordmark .msg{font-family:var(--latin);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;}
-.wordmark .dot{width:7px;height:7px;background:var(--accent);align-self:center;}
+你：（）--------------------------
+<!<!DOCTYPE 你>
+you；包{max-width:you：（-max）；：0
+你
+你：0<边缘我你（-垫）；内容 衬垫改变变量=<！<S 显示继承 屈伸边界 中心背景(12 小卖部光标 文字标志指针 P 显示 屈伸边缘="indigo"]{ --accent:#2E4BD8; --accent-dark:#1E35A8; --accent-soft:rgba(46,75,216,.12); } 基线请将下面的文本准确无误地翻译成 差距边缘 小卖部衬垫="pine"]{ --accent:#1F7A5C; --accent-dark:#155B44; --accent-soft:rgba(31,122,92,.13); }="UTF-8">文字标志没有一个<<超文本标记语言剧本="viewport"剧本 高度颜色***************************************************************************************************************************************************************************************************** 味精选择 变量背景=小卖部变量 包变量 边缘 汽车 衬垫 变量 显示=网格重复 神父 差距. getItem“fox-theme”）变量（briomayoto 属性 [数据-主题]）；（）；<you you mayoto mayou 12161（226,72,47.< mayoto-you 12）（-24#2#2#2#2 ！ <！< 盘旋=我 改变向=X>轴平移
+“宽度<<翻译为中文是 SC6；盘旋文档类型超文本标记语言 C；you. You-Sans：=<！<！ mayoto-you 内容 “宽度 设备宽度，你 7 A5 [马约托] 2 A23 ”. 标题{}你>你，
+[https：
 .nav{display:flex;align-items:center;gap:30px;transition:gap .35s var(--ease-out);}
 .nav a{position:relative;font-family:var(--latin);font-size:13px;font-weight:600;letter-spacing:.02em;padding:6px 0;white-space:nowrap;}
 .nav a::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--accent);transition:width .18s ease-out;}
